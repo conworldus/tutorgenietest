@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tutor Genie</string>
+
+    <!--Control Names -->
+    <string name="control_ok">Okay</string>
+    <string name="control_yes">Yes</string>
+    <string name="control_cancel">Cancel</string>
+    <string name="control_no">No</string>
+    <string name="control_clear">Clear</string>
+    <string name="control_submit">Submit</string>
+
+    <!--Messages-->
+    <string name="message_inquiry_name">Please enter your name</string>
+    <string name="message_inquiry_gender">What is your gender?</string>
+    <string name="message_inquiry_dateofbirth">What is your date of birth?</string>
+    <string name="message_inquiry_email">Please enter your email address</string>
+
+    <!--Miscellaneous-->
+    <string name="option_male">Male</string>
+    <string name="option_female">Female</string>
+    <string name="option_unknown">Unknown</string>
+    <string name="option_English">English</string>
+    <string name="option_Math">Mathematics</string>
+    <string name="option_Science">Science</string>
+    <string name="option_other">Other</string>
+    <string name="option_language">Language</string>
+    <string name="option_super">Super</string>
+
+
+    <!--System Messages-->
+    <string name="sysmsg_pictures">Picture Placeholder</string>
+    <string name="sysmsg_required">Required</string>
+</resources>
