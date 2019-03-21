@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -20,7 +19,7 @@
             android:id="@+id/name_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName|textCapWords"/>
 
         <TextView
             android:id="@+id/name_req"
@@ -40,6 +39,7 @@
             android:id="@+id/dob_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:editable="false"
             android:inputType="date"/>
 
         <TextView
@@ -64,20 +64,32 @@
             android:padding="10dp">
 
             <ImageView
+                android:padding="2dp"
                 android:id="@+id/male_image"
-                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:maxHeight="80dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:contentDescription="@string/sysmsg_pictures"/>
 
             <ImageView
+                android:padding="2dp"
+                android:adjustViewBounds="true"
                 android:id="@+id/female_image"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
+                android:maxHeight="80dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/sysmsg_pictures"/>
 
             <ImageView
+                android:padding="2dp"
                 android:id="@+id/other_image"
-                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:maxHeight="80dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/sysmsg_pictures"/>
         </LinearLayout>

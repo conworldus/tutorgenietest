@@ -18,13 +18,16 @@
     <!--Miscellaneous-->
     <string name="option_male">Male</string>
     <string name="option_female">Female</string>
-    <string name="option_unknown">Unknown</string>
+    <string name="option_unknown">Other</string>
     <string name="option_English">English</string>
     <string name="option_Math">Mathematics</string>
     <string name="option_Science">Science</string>
     <string name="option_other">Other</string>
     <string name="option_language">Language</string>
     <string name="option_super">Super</string>
+    <string name="option_year">Year</string>
+    <string name="option_month">Month</string>
+    <string name="option_day">Day</string>
 
 
     <!--System Messages-->
